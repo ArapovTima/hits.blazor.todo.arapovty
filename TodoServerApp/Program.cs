@@ -4,11 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using TodoServerApp.Components;
 using TodoServerApp.Components.Account;
 using TodoServerApp.Data;
-<<<<<<< HEAD
 using TodoServerApp.Data.Interfaces;
 using TodoServerApp.Data.Services;
-=======
->>>>>>> efffe33b4e9808a286fbe36ef8c1bdb6c3ef2676
 
 namespace TodoServerApp
 {
@@ -45,10 +42,7 @@ namespace TodoServerApp
                 .AddDefaultTokenProviders();
 
             builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
-<<<<<<< HEAD
             builder.Services.AddScoped<IDataService, MSSQLDataService>();
-=======
->>>>>>> efffe33b4e9808a286fbe36ef8c1bdb6c3ef2676
 
             var app = builder.Build();
 

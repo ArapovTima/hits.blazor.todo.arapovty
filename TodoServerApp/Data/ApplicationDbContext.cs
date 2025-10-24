@@ -5,7 +5,6 @@ namespace TodoServerApp.Data
 {
     public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext<ApplicationUser>(options)
     {
-<<<<<<< HEAD
         public virtual DbSet<TaskItem> TaskItems { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -17,7 +16,5 @@ namespace TodoServerApp.Data
                 new() { Id = 4, Title = "Задача 4", Description = "Описание задачи 4", CreatedDate = DateTime.Now },
             ]);
         }
-=======
->>>>>>> efffe33b4e9808a286fbe36ef8c1bdb6c3ef2676
     }
 }

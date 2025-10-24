@@ -1,11 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-<<<<<<< HEAD
 VisualStudioVersion = 17.14.36616.10
-=======
-VisualStudioVersion = 17.14.36616.10 d17.14
->>>>>>> efffe33b4e9808a286fbe36ef8c1bdb6c3ef2676
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoServerApp", "TodoServerApp\TodoServerApp.csproj", "{5C5A7996-1BEE-472B-A8C2-4DD3A134A061}"
 EndProject
